@@ -12,7 +12,8 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "deploy": "surge dist"
   },
   "devDependencies": {
     "@ionic/core": "^6.0.1",
